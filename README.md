@@ -181,7 +181,7 @@ The LLM can therefore answer questions using information retrieved from the user
 
 Follow the steps below to run the project locally.
 
-## 📋 Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -248,7 +248,7 @@ uv sync
 
 ---
 
-# 🗄️ 3. Start PostgreSQL with pgvector
+## 3. Start PostgreSQL with pgvector
 
 The project uses PostgreSQL with the `pgvector` extension to store and search document embeddings.
 
@@ -278,7 +278,7 @@ You should see `pg_database` in the list of running containers.
 
 ---
 
-# 🔐 4. Configure environment variables
+## 4. Configure environment variables
 
 Create a `.env` file in the project root.
 
@@ -292,7 +292,7 @@ POSTGRES_PASSWORD=password
 
 ---
 
-# ⚙️ 5. Start the FastAPI backend
+## 5. Start the FastAPI backend
 
 Start the FastAPI application using Uvicorn.
 
@@ -322,7 +322,7 @@ Keep this terminal running.
 
 ---
 
-# 🔄 6. Start the Inngest development server
+## 6. Start the Inngest development server
 
 Inngest is used to handle background/event-driven document processing.
 
@@ -346,7 +346,7 @@ Keep this terminal running as well.
 
 ---
 
-# 🖥️ 7. Start the Streamlit application
+## 7. Start the Streamlit application
 
 Open another terminal and start the Streamlit frontend.
 
@@ -366,7 +366,7 @@ Open that URL in your browser.
 
 ---
 
-# 🧩 Running the Complete Application
+## Running the Complete Application
 
 For local development, you should have the following services running:
 
@@ -434,7 +434,7 @@ The overall local setup looks like:
 
 ---
 
-# 🛑 Stopping the Application
+# Stopping the Application
 
 The FastAPI, Inngest, and Streamlit processes can be stopped with:
 
@@ -505,7 +505,7 @@ The models can be configured through environment variables by setting `LLM_MODEL
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
