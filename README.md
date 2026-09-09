@@ -257,12 +257,7 @@ The easiest way to run the database locally is with Docker.
 From the project root, run:
 
 ```bash
-docker run -d \
-  --name pg_database \
-  -e POSTGRES_PASSWORD=password \
-  -p 5432:5432 \
-  -v "$(pwd)/pg_data:/var/lib/postgresql/data" \
-  pgvector/pgvector:pg17-trixie
+docker run -d --name pg_database -e POSTGRES_PASSWORD=password -p 5432:5432 -v "$(pwd)/pg_data:/var/lib/postgresql/data" pgvector/pgvector:pg17-trixie
 ```
 
 This will:
