@@ -434,7 +434,7 @@ The overall local setup looks like:
 
 ---
 
-# Stopping the Application
+## Stopping the Application
 
 The FastAPI, Inngest, and Streamlit processes can be stopped with:
 
@@ -465,7 +465,7 @@ docker rm -f pg_database
 
 ---
 
-# OpenAI Models
+## OpenAI Models
 
 The application uses OpenAI for two different purposes:
 
