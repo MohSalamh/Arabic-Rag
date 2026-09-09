@@ -208,8 +208,8 @@ The project uses:
 Clone the project and move into the project directory:
 
 ```bash
-git clone <your-repository-url>
-cd <your-project-directory>
+git clone https://github.com/MohSalamh/Arabic-Rag.git
+cd arabic-rag
 ```
 
 ---
