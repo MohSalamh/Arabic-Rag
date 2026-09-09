@@ -246,8 +246,6 @@ Install the project dependencies:
 uv sync
 ```
 
-> Prefer `uv sync` when a `pyproject.toml` and `uv.lock` are included in the repository.
-
 ---
 
 # 🗄️ 3. Start PostgreSQL with pgvector
