@@ -334,9 +334,7 @@ Inngest is used to handle background/event-driven document processing.
 Open a **new terminal** and run:
 
 ```bash
-npx inngest-cli@latest dev \
-  -u http://127.0.0.1:8000/api/inngest \
-  --no-discovery
+npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 ```
 
 The `-u` option tells Inngest where the application's Inngest endpoint is located.
@@ -394,9 +392,7 @@ uv run uvicorn app.main:app --reload
 ### Terminal 3 — Inngest
 
 ```bash
-npx inngest-cli@latest dev \
-  -u http://127.0.0.1:8000/api/inngest \
-  --no-discovery
+npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 ```
 
 ### Terminal 4 — Streamlit
@@ -462,7 +458,6 @@ To start it again later:
 ```bash
 docker start pg_database
 ```
-
 Because the database is mounted to `./pg_data`, your PostgreSQL data will persist when the container is stopped or removed.
 
 To remove the container:
