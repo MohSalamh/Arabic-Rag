@@ -33,7 +33,7 @@ def trigger_query(question: str, top_k: int, source: str | None):
     return response
 
 def trigger_sources():
-    """Send a RAG query to FastAPI and get the event id"""
+    """Send a get stored sources event to FastAPI and get the event id"""
     response = requests.post(
         settings.sources_url,
         json={},
